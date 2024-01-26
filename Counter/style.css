@@ -1,0 +1,26 @@
+label {
+    font-size: 10rem;
+    display: flex;
+    justify-content: center;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    scale: 1.5;
+    padding: 23px 15px;
+}
+button:nth-of-type(1) {
+    background-color: lightskyblue;
+    border-radius: 15% 15% 15% 15%;
+}
+button:nth-of-type(2) {
+    background-color: brown;
+    border-radius: 15% 15% 15% 15%;
+}
+button:nth-of-type(3) {
+    background-color: aquamarine;
+    border-radius: 15% 15% 15% 15%;
+}
+button:hover {
+    background-color: crimson;
+}
